@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Content Updater</title>
+    <link rel="stylesheet" href="libs/bootstrap/dist/css/bootstrap.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>My Content Manager</h1>
+        <form action="post">
+            <div class="form-group">
+                <label for="Bio">BIO:</label>
+                <textarea name="submit" class="form-control" id="Bio" rows="3"required="true"></textarea>
+            </div>
+
+            <div class="form-group">
+                <label for="Origin">WHERE IM FROM:</label>
+                <textarea class="form-control" id="Origin" rows="3" required="required" ></textarea>
+            </div>
+
+            <div class="form-group">
+                <label for="Hobbies">HOBBIES:</label>
+                <textarea class="form-control" id="Hobbies" rows="3" required="required" ></textarea>
+            </div>
+
+            <div class="form-group">
+                <label for="DreamJob">DREAM JOB:</label>
+                <textarea class="form-control" id="DreamJob" rows="3" required="required" ></textarea>
+            </div>
+
+            <div class="form-group">
+                <label for="CodeHistory">CODE HISTORY:</label>
+                <textarea class="form-control" id="CodeHistory" rows="3" required="required"></textarea>
+            </div>
+
+            <div class="form-group">
+			  <label for="Occupation">OCCUPATION:</label>
+			  <div>
+			  	<input class="form-control" type="text" id="Occupation"required="required">
+			  </div>
+			</div>
+
+            <div class="form-group">
+                <label for="currentMusic">FAVORITE TYPE OF MUSIC:</label>
+                <textarea class="form-control" id="CurrentMusic" rows="3" required="required" ></textarea>
+            </div>
+			<button id="submit" type="submit" class="btn btn-primary">Submit</button>
+            <button id="edit" type="submit" class="btn btn-primary">Edit</button>  
+	
+        </form>
+    </div>
+    <script src="libs/jquery/dist/jquery.js"></script>
+    <script src="app.js"></script>
+</body>
+
+</html>
